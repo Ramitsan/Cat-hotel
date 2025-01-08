@@ -1,0 +1,104 @@
+.why-us {
+  padding: 140px 0;
+}
+
+.why-us__heading {
+  margin: 0;
+  margin-bottom: 70px;
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.why-us__features {
+  width: 100%;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 367px;
+    height: 314px;
+    top: -226px;
+    right: -160px;
+    rotate: -159deg;
+    background-image: url("../../img/back-paw.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    z-index: -1;
+  }
+}
+
+.why-us__features-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  row-gap: 20px;
+  column-gap: 30px;
+  flex-wrap: wrap;
+}
+
+.features-card {
+  width: calc((100% - 2 * 30px) / 3);
+  padding: 30px;
+  background: var(--white);
+  box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
+  border-radius: 8px;
+}
+
+.features-card__icon-block {
+  width: 91px;
+  height: 91px;
+  margin-bottom: 35px;
+  background: #FAC663;
+  border-radius: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.features-card__icon-block--one {
+  background-image: url("../../img/svg/feature1.svg");
+  background-size: 31px 55px;
+}
+
+.features-card__icon-block--two {
+  background-image: url("../../img/svg/feature2.svg");
+  background-size: 47px 37px;
+}
+
+.features-card__icon-block--three {
+  background-image: url("../../img/svg/feature3.svg");
+  background-size: 51px 31px;
+}
+
+.features-card__icon-block--four {
+  background-image: url("../../img/svg/feature4.svg");
+  background-size: 53px 35px;
+}
+
+.features-card__icon-block--five {
+  background-image: url("../../img/svg/feature5.svg");
+  background-size: 47px 39px;
+}
+
+.features-card__icon-block--six {
+  background-image: url("../../img/svg/feature6.svg");
+  background-size: 41px 43px;
+}
+
+.features-card__heading {
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 140%;
+}
+
+.features-card__text {
+  margin: 0;
+}

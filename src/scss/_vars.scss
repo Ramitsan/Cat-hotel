@@ -1,0 +1,18 @@
+// если вы хотите использовать sass-переменные - удалите root
+// colors
+:root {
+  // base
+  --font-family: "Lato", sans-serif;
+  --second-family: "Rubik", sans-serif;
+  --content-width: 1170px;
+  --container-offset: 0px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+  --retina-dpi: 144dpi;
+  --retina-dppx: 1.5dppx;
+
+  // colors
+  --white: #fff;
+  --light: #FFFEFD;
+  --orange: #FF7236;
+  --text-color: #1A212F;
+}
