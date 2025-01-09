@@ -1,0 +1,101 @@
+.hotel-rooms {
+  width: 100%;
+}
+
+.hotel-rooms__title {
+  margin: 0;
+  margin-bottom: 70px;
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+}
+
+.slider__list {
+  width: 100%;
+  padding: 0 70px;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 484px;
+    height: 151px;
+    top: -88px;
+    left: -88px;
+    background-image: url("../../img/fish.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+  }
+}
+
+.slide {
+  width: 100%;
+  display: flex;
+}
+
+.slide__wrap-left,
+.slide__wrap-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide__left-content {
+  width: 600px;
+}
+
+.slide__image {
+  width: 600px;
+  height: 404px;
+  border-radius: 10px;
+}
+
+.slide__right-content {
+  width: 500px;
+  min-height: 284px;
+  padding: 40px 100px;
+  position: relative;
+  left: -70px;
+  background: var(--white);
+  box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
+  border-radius: 8px;
+}
+
+.slide__title {
+  margin: 0;
+  margin-bottom: 22px;
+  font-family: var(--second-family);  
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.slide__description-list {
+  margin-bottom: 30px;
+}
+
+.slide__description-item {
+  position: relative;
+  line-height: 19px;
+  padding-left: 22px;
+ 
+  &::before {
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: 4px;
+    left: 0;
+    border-radius: 50%;
+    background: var(--secondary-color);
+  }
+}
+
+.slide__description-item:not(:last-child) {
+  margin-bottom: 18px;
+}
+

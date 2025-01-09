@@ -1,0 +1,85 @@
+<section class="hotel-rooms">
+  <div class="container hotel-rooms__container">
+    <h3 class="hotel-rooms__title">Номера</h3>
+    <div class="hotel-rooms__slider slider ">
+      <div class="slider__wrapper">
+        <div class="slider__list">
+
+          <div class="slider__item slide">
+            <div class="slide__wrap-left">
+              <div class="slide__left-content">
+                <picture>
+                  <!-- <source srcset="./img/card-img1.webp, ./img/card-img1_2x.webp 2x" type="image/webp"> -->
+                  <img loading="lazy" src="./img/econom-plus.png" srcset="./img/econom-plus_2x.png 2x" class="slide__image"
+                    width="600" height="404" alt="">
+                </picture>
+              </div>
+            </div>
+            <div class="slide__wrap-right">
+              <div class="slide__right-content">
+                <h4 class="slide__title">Эконом плюс</h4>
+                <ul class="list-reset slide__description-list">
+                  <li class="slide__description-item">Площадь - 0,90 м2</li>
+                  <li class="slide__description-item">Размеры (ШхГхВ) — 90х100х180 см</li>
+                  <li class="slide__description-item">Цена за сутки: 200₽</li>
+                </ul>
+                @include('button-book.html')                 
+              </div>
+            </div>            
+          </div> 
+
+          <div class="slider__item slide">
+            <div class="slide__wrap-left">
+              <div class="slide__left-content">
+                <picture>
+                  <!-- <source srcset="./img/card-img1.webp, ./img/card-img1_2x.webp 2x" type="image/webp"> -->
+                  <img loading="lazy" src="./img/comfort.png" srcset="./img/comfort_2x.png 2x" class="slide__image"
+                    width="600" height="404" alt="">
+                </picture>
+              </div>
+            </div>
+            <div class="slide__wrap-right">
+              <div class="slide__right-content">
+                <h4 class="slide__title">Комфорт</h4>
+                <ul class="list-reset slide__description-list">
+                  <li class="slide__description-item">Площадь - 1,13 м2</li>
+                  <li class="slide__description-item">Размеры (ШхГхВ) - 100х125х180 см</li>
+                  <li class="slide__description-item">Цена за сутки: 250₽</li>
+                </ul>
+                @include('button-book.html')                 
+              </div>
+            </div>            
+          </div>
+          
+          <div class="slider__item slide">
+            <div class="slide__wrap-left">
+              <div class="slide__left-content">
+                <picture>
+                  <!-- <source srcset="./img/card-img1.webp, ./img/card-img1_2x.webp 2x" type="image/webp"> -->
+                  <img loading="lazy" src="./img/suite.png" srcset="./img/suite_2x.png 2x" class="slide__image"
+                    width="600" height="404" alt="">
+                </picture>
+              </div>
+            </div>
+            <div class="slide__wrap-right">
+              <div class="slide__right-content">
+                <h4 class="slide__title">Сьют</h4>
+                <ul class="list-reset slide__description-list">
+                  <li class="slide__description-item">Площадь - 1,56 м2</li>
+                  <li class="slide__description-item">Размеры (ШхГхВ) - 125х125х180 см</li>
+                  <li class="slide__description-item">Цена за сутки: 350₽</li>
+                </ul>
+                @include('button-book.html')                 
+              </div>
+            </div>            
+          </div>
+
+        </div>
+
+        <div class="slider__buttons">
+          <button class="btn-reset slider__button slider__button--prev" type="button">Предыдущий</button>
+          <button class="btn-reset slider__button slider__button--next" type="button">Следующий</button>
+        </div>
+      </div>
+    </div>
+</section>
