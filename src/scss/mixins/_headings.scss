@@ -1,0 +1,9 @@
+@mixin third-level-headings () {
+  font-family: var(--second-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: var(--text-color);
+}
