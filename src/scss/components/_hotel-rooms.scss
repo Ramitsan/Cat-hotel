@@ -153,3 +153,18 @@
 .slider__button--next {
   background-image: url("../../img/svg/arrow-right.svg");
 }
+
+@include tablet {
+  .slider__wrapper {
+    padding: 0 45px;
+  }
+
+  .slider__list {
+    &::before {
+      width: 339px;
+      height: 106px;
+      top: -52px;
+      left: -44px;
+    }
+  }
+}

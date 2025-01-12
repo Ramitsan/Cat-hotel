@@ -54,3 +54,15 @@
 .main-nav-toggle {
   display: none;
 }
+
+@include small-desktop {
+  .header__container {
+    padding: 12px 15px;
+  }
+}
+
+@include tablet {
+  .header__container {
+    padding: 12px 45px;
+  }
+}

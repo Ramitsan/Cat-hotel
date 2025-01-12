@@ -39,3 +39,9 @@
   font-size: 20px;
   line-height: 24px;
 }
+
+@include tablet {
+  .promo__content {
+    margin-left: 50px;
+  }
+}

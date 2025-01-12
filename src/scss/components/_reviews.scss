@@ -9,13 +9,14 @@
 
 .reviews__title {
   margin: 0;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
   @include third-level-headings ();
 }
 
 .reviews-slider {
   position: relative;
   width: 100%;
+
   &::before {
     content: "";
     position: absolute;
@@ -39,9 +40,10 @@
 
 .reviews-slider__list {
   width: 1470px;
+  padding: 20px 0;
   display: flex;
   gap: 30px;
-  margin-bottom: 43px;
+  margin-bottom: 23px;
   overflow-x: hidden;
   scroll-behavior: smooth;
   scrollbar-width: none;
@@ -147,4 +149,22 @@
 
 .reviews-slider__button--next {
   background-image: url("../../img/svg/arrow-right.svg");
+}
+
+@include tablet {
+  .reviews__container {
+    padding: 120px 0;
+    padding-bottom: 115px;
+    padding-left: 45px;
+  }
+
+  .reviews-slider {
+    &::before {
+      width: 227px;
+      height: 194px;
+      top: -122px;
+      right: -18px;
+    }
+  }
+
 }

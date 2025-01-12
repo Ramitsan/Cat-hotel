@@ -111,3 +111,26 @@
     opacity: 0.7;
   }
 }
+
+@include tablet {
+  .find-us__background-left,
+  .find-us__content {
+    width: 48%;
+  }
+
+  .find-us__content {
+    padding: 60px 45px;
+  }
+
+  .find-us__background-right {
+    width: 52%;
+  }
+
+  .find-us__title {
+    margin-bottom: 40px;
+  }
+
+  .contacts {
+    gap: 30px;
+  }
+}
